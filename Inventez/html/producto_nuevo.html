@@ -27,14 +27,14 @@ include '../php/logins/sesion.php';
         <img src="../img/logo.png" alt="Logo" class="logo-img" />
         <span class="logo-text">Invenez</span>
       </div>
-      <a href="../main.php"><i data-lucide="home" class="icon"></i> Inicio</a>
+      <a href="../main.html"><i data-lucide="home" class="icon"></i> Inicio</a>
 
       <a href="#" class="has-submenu" onclick="toggleSubmenu(this)">
         <i data-lucide="package" class="icon"></i> Productos
       </a>
       <div class="submenu">
-        <a href="lista_producto.php">Lista</a>
-        <a href="producto_nuevo.php">Nuevo</a>
+        <a href="lista_producto.html">Lista</a>
+        <a href="producto_nuevo.html">Nuevo</a>
       </div>
 
       <a href="#" class="has-submenu" onclick="toggleSubmenu(this)">
@@ -42,7 +42,7 @@ include '../php/logins/sesion.php';
       </a>
       <div class="submenu">
         <a href="#">Historial</a>
-        <a href="nueva_venta.php">Nueva venta</a>
+        <a href="nueva_venta.html">Nueva venta</a>
       </div>
 
         <?php if ($rol == 1): ?>
